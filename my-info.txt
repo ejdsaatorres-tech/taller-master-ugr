@@ -1,0 +1,3 @@
+Juan Saa
+My favorite programming languages are: Java, C++, Python
+Git is the best version control system! It is very powerful but also has a steep learning curve.

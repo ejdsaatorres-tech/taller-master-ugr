@@ -40,28 +40,28 @@ def5678 fix: Resolve merge conflict
 ## 🎯 Key Learnings
 
 **Main concepts I learned**:
-1. [Concept 1, e.g., "How to create and switch between branches efficiently"]
-2. [Concept 2, e.g., "The difference between merge and rebase"]
-3. [Concept 3]
+1. Hacer fork de un repositorio
+2. Clonar localmente
+3. Gestionar usuario e email
+4. stage y commit nuevos archivos o cambios en archivos (tracking de nuevos archivos)
+5. Mostrar logs para verificar cambios, p, ej. autor e email, fecha, etc.
 
 **Skills I improved**:
-- [Skill 1, e.g., "Reading and understanding Git logs"]
-- [Skill 2, e.g., "Resolving merge conflicts"]
-- [Skill 3]
-
+- Discernir entre config local y config global para user.name y user.email (y otras conficuraciones)
+- 
 ---
 
 ## 🚧 Challenges Faced
 
 ### Challenge 1: [Brief title]
-**Problem**: [Describe the challenge you encountered]
+**Problem**: Olvidé cambiar user.name y user.email.
 
-**Solution**: [Explain how you resolved it or what you learned from it]
+**Solution**:  Hice un amend para modificar el último commit.
 
 **Commands/Approach**:
-```bash
-# Commands or approach used to solve the problem
-```
+git config user.name "myusername"
+git config user.email "myemail"
+git commit --amend --reset-author
 
 ---
 
