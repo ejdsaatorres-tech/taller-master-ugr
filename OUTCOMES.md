@@ -12,14 +12,20 @@
 **Status**: ✅ Completed / ⏳ In Progress / ❌ Not Completed
 
 **What I did**:
-[Brief description of what you accomplished in this exercise. Since each level has one comprehensive exercise with multiple parts, describe your overall achievement and the key parts you completed.]
+Se clonó el repositorio público de los ejercicos y se clonó localmente para poder realizar cambios. Se usó los comandos básicos de gestión de git para añadir, commit, log y hacer push al remoto.
 
 **Commands Used**:
 ```bash
 # List the key Git commands you used across all parts of the exercise
-git command1
-git command2
-# etc.
+git clone
+git add
+git commit
+git checkout
+git branch
+git log
+git push
+git commit --amend
+
 ```
 
 **Results/Output**:
@@ -32,8 +38,28 @@ def5678 fix: Resolve merge conflict
 ```
 
 **Screenshots** (if applicable):
-- [Screenshot 1: Description]
-- [Screenshot 2: Description]
+- ![Screenshot](images/clone_checkout.jpg)
+checkout newbie branch
+- ![Screenshot](images/untracked.jpg)
+Hola.txt no esta siendo seguido
+- ![Screenshot](images/add.jpg)
+Añadiendo Hola.txt
+- ![Screenshot](images/status_tracked.jpg)
+Estatus: Hola.txt está siendo seguido
+- ![Screenshot](images/commit.jpg)
+Commit de Hola.txt
+- ![Screenshot](images/amend.jpg)
+Cambio de usuario y correo y commit --amend
+- ![Screenshot](images/log.jpg)
+Log refleja el último commit
+- ![Screenshot](images/new_status.jpg)
+Estatus: OUTCOME.md modificada y my-info.txt sin seguimiento
+- ![Screenshot](images/new_add_commit.jpg)
+Añadir todo con git add . y commit
+- ![Screenshot](images/push.jpg)
+Push a la rama feature/my-info
+- ![Screenshot](images/switch_pull_newbie.jpg)
+checkout rama newbie y pull de últimos cambios
 
 ---
 
@@ -62,13 +88,6 @@ def5678 fix: Resolve merge conflict
 git config user.name "myusername"
 git config user.email "myemail"
 git commit --amend --reset-author
-
----
-
-### Challenge 2: [Brief title]
-**Problem**: [Describe the challenge]
-
-**Solution**: [Your resolution]
 
 ---
 
