@@ -128,7 +128,7 @@ Rate your confidence level for each topic (1-5, where 5 is very confident):
 ## 🔗 Evidence/Artifacts
 
 **Links to branches/commits**:
-- Link to your outcome branch: `https://github.com/miguel-oltra/taller-master-ugr/tree/group-X-outcomes/[level]`
+- Link to your outcome branch: `https://github.com/ejdsaatorres-tech/taller-master-ugr/tree/group-DS-02-outcomes/newbie`
 - Key commits demonstrating your work:
   - Commit hash: [Short description]
   - Commit hash: [Short description]
