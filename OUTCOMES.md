@@ -34,8 +34,8 @@ Ver capturas a continuacion.
 ```
 
 **Screenshots** (if applicable):
-- [Screenshot 1: Description]
-- [Screenshot 2: Description]
+- ![Screenshot](images/0.jpg)
+
 
 ---
 
