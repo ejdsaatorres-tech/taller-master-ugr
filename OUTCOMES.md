@@ -52,7 +52,10 @@ Creación del PR en GitHub
 - ![Screenshot](images/9_verified_commit.jpg)
 Confirmación de que el último commit fue firmado
 - ![Screenshot](images/12_awaiting_reviews.jpg)
-Push request a la espera de revision por los CODEOWNERS
+Push request a la espera de revisión por los CODEOWNERS
+- ![Screenshot](images/13_scan_repo.jpg)
+Escaneo de seguridad del repo local.
+
 ---
 
 ## 🎯 Key Learnings
@@ -122,10 +125,10 @@ Rate your confidence level for each topic (1-5, where 5 is very confident):
 ## 🔗 Evidence/Artifacts
 
 **Links to branches/commits**:
-- Link to your outcome branch: `https://github.com/miguel-oltra/taller-master-ugr/tree/group-X-outcomes/[level]`
+- Link to your outcome branch: https://github.com/ejdsaatorres-tech/taller-master-ugr/tree/group-DS-02-outcomes/master-of-the-universe
+- Link to feature/protected-workflow: https://github.com/ejdsaatorres-tech/taller-master-ugr/tree/feature/protected-workflow
 - Key commits demonstrating your work:
-  - Commit hash: [Short description]
-  - Commit hash: [Short description]
+
 
 **Additional files created** (if any):
 - File 1: [Description]
