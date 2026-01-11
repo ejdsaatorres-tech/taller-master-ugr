@@ -35,58 +35,71 @@ Ver capturas a continuacion.
 
 **Screenshots** (if applicable):
 - ![Screenshot](images/0.jpg)
-
-
+- ![Screenshot](images/2_fail_push.jpg)
+Creación de direct-push.txt e intento de push directo que falla.
+- ![Screenshot](images/3_branch_add.jpg)
+Creacion de la rama feature/protected-workflow y creación del archivo workfow.txt
+- ![Screenshot](images/6_list_keys.jpg)
+Visualización de las claves publicas/privadas gpg disponible
+- ![Screenshot](images/7_config_gpg.jpg)
+Confgurar git para usar gpg para firmar los commits
+- ![Screenshot](images/4_signed_commit.jpg)
+Firmado critpográfico del commit con gpg
+- ![Screenshot](images/5_push_protected.jpg)
+Push a la rama feature/protected-workflow
+- ![Screenshot](images/8_create_PR.jpg)
+Creación del PR en GitHub
+- ![Screenshot](images/9_verified_commit.jpg)
+Confirmación de que el último commit fue firmado
+- ![Screenshot](images/12_awaiting_reviews.jpg)
+Push request a la espera de revision por los CODEOWNERS
 ---
 
 ## 🎯 Key Learnings
 
 **Main concepts I learned**:
-1. [Concept 1, e.g., "How to create and switch between branches efficiently"]
-2. [Concept 2, e.g., "The difference between merge and rebase"]
-3. [Concept 3]
+1. Usar ramas auxiliares para realizar cambios. (Siempre hacer un fetch antes para sincronizar con el remoto y resolver conflictos)
+2. Usar claves criptográficas para firmar commits garantiza la autoría de los cambios.
+3. Evitar hacer merge a la rama principal, main, prod, master. Usar PR desde una rama auxiliar ayuda a asegurar que los cambios sean seguros.
+4. Se puede forzar la revisión de los cambios por parte de revisores autorizados de modo que no pasen a la rama principal desapercibidos.
 
 **Skills I improved**:
-- [Skill 1, e.g., "Reading and understanding Git logs"]
-- [Skill 2, e.g., "Resolving merge conflicts"]
-- [Skill 3]
+- Ejercitar el hábito de hacer pull o fetch antes de crear una rama para tener el repo local sincronizado con el remoto
+- Solventar conflictos entre ramas o entre remoto y local
+- Manejar las llaves de gpg. Usar el GUI Kleopatra para administrar visualmente las claves o gpg desde la línea de comando
+- Usar las opciones de GitHub para proteger ramas y repositorio. Crear y administrar PR.
 
 ---
 
 ## 🚧 Challenges Faced
 
 ### Challenge 1: [Brief title]
-**Problem**: [Describe the challenge you encountered]
+**Problem**: A veces surgieron discrepancias entre la rama local y la remota.
 
-**Solution**: [Explain how you resolved it or what you learned from it]
+**Solution**: Se usó log y diff para localizar incongruencias y corregir las discrepancias.
 
 **Commands/Approach**:
 ```bash
 # Commands or approach used to solve the problem
+git diff
+#abrir el archivo en VC para ver las diferencias
 ```
-
----
-
-### Challenge 2: [Brief title]
-**Problem**: [Describe the challenge]
-
-**Solution**: [Your resolution]
 
 ---
 
 ## 💭 Personal Reflection
 
 **What surprised me**:
-[What unexpected things did you discover about Git?]
+No sabía que se posible (o necesario) firmar los commits
 
 **What I found most difficult**:
-[Which concepts or exercises were most challenging?]
+Creo que lo más difícil es resolver conflictos entre ramas. Toma tiempo subsanar las diferencias y requiere conocer las herramientas de comparación de diff y log.
 
 **What I found most useful**:
-[Which skills do you think will be most valuable in real projects?]
+En cuanto a la firma critpográfica, me pareció muy interesante y potencialmente útil en un contexto profesional donde la seguridad es un factor decisivo. El trabajo por ramas protegidas y ramas auxiliares me parece lo más útil en el trabajo del día a día con control de versiónes.
 
 **How I would apply this in real projects**:
-[Describe how you might use these Git skills in professional work]
+En adelante, organizaré mis repos tratando de seguir la filosofía GitFlow: usar ramas protegidas y ramas auxuliares para desarrollar.
 
 ---
 
@@ -96,13 +109,13 @@ Rate your confidence level for each topic (1-5, where 5 is very confident):
 
 | Topic | Confidence (1-5) | Notes |
 |-------|------------------|-------|
-| Basic Git commands | [ ] | |
-| Branching & merging | [ ] | |
-| Remote operations | [ ] | |
-| Conflict resolution | [ ] | |
-| History rewriting | [ ] | |
-| Git hooks | [ ] | |
-| Security practices | [ ] | |
+| Basic Git commands | [5 ] | |
+| Branching & merging | [4 ] | |
+| Remote operations | [4 ] | |
+| Conflict resolution | [4 ] | |
+| History rewriting | [3 ] | |
+| Git hooks | [3 ] | |
+| Security practices | [4 ] | |
 
 ---
 
