@@ -129,10 +129,30 @@ Rate your confidence level for each topic (1-5, where 5 is very confident):
 - Link to feature/protected-workflow: https://github.com/ejdsaatorres-tech/taller-master-ugr/tree/feature/protected-workflow
 - Key commits demonstrating your work:
 
+commit 3d44cea6573892ac671a4a6486c016b868ef0c5c (HEAD -> feature/protected-workflow, origin/feature/protected-workflow)
+Merge: 03ff4d7 d2a2d69
+Author: ejdsaatorres <e.jdsaatorres@go.ugr.es>
+Date:   Sun Jan 4 16:24:12 2026 +0100
+
+    resolved conflicts in README.md. Keep mains readme
+
+commit 03ff4d7c85203a9ae22430f626d3b7fe1d54d211
+Author: ejdsaatorres <e.jdsaatorres@go.ugr.es>
+Date:   Sun Jan 4 15:26:41 2026 +0100
+
+    feat: Add workflow documentation
+
+commit d2a2d692fe295d1f0ffdf9acde4289d1ff926b11 (origin/main, origin/HEAD)
+Author: ejdsaatorres <e.jdsaatorres@go.ugr.es>
+Date:   Mon Dec 29 00:55:21 2025 +0100
+
+    Attempting direct push
+
+
 
 **Additional files created** (if any):
-- File 1: [Description]
-- File 2: [Description]
+- File 1: [para implementar protected workflow]workflow.txt
+- File 2: [para probar direct push]direct-push.txt
 
 ---
 
@@ -151,9 +171,9 @@ Before submitting, ensure you have:
 
 ## 📝 Additional Comments
 
-[Any additional thoughts, questions, or feedback about the exercises]
+Aunque se pide la URL de la rama outcomes, el ejercicio se realizó realmente sobre la rama feature/protected-workflow por lo que se incluye su URL también.
 
 ---
 
 **Submission Date**: [Date]  
-**Ready for Review**: ✅ Yes / ❌ No
+**Ready for Review**: ✅ Yes
