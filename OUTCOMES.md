@@ -159,13 +159,13 @@ Date:   Mon Dec 29 00:55:21 2025 +0100
 ## ✅ Completion Checklist
 
 Before submitting, ensure you have:
-- [ ] Completed the exercise for your chosen level (including all parts)
-- [ ] Documented all commands used with their outputs
-- [ ] Described challenges and how you resolved them
-- [ ] Provided a thoughtful reflection on your learning
-- [ ] Self-assessed your confidence in each topic
-- [ ] Pushed your outcome branch to the remote repository
-- [ ] Created a Pull Request (if required by your instructor)
+- [✅] Completed the exercise for your chosen level (including all parts)
+- [✅] Documented all commands used with their outputs
+- [✅] Described challenges and how you resolved them
+- [✅] Provided a thoughtful reflection on your learning
+- [✅] Self-assessed your confidence in each topic
+- [✅] Pushed your outcome branch to the remote repository
+- [✅] Created a Pull Request (if required by your instructor)
 
 ---
 
